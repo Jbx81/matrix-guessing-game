@@ -1,1 +1,118 @@
 /* Write your CSS code in this file */
+
+
+.container{
+/* background: url(https://cdn-images-1.medium.com/max/1600/1*XZrU5omVCZPZXuYv2AZnog.jpeg) no-repeat center;
+  background-size: cover; */
+  height: 60%;
+  position: relative;
+  text-align: center;
+  /* display: inline; */
+  /* opacity: 0.5;
+  filter: alpha(opacity=50); For IE8 and earlier */
+    /* matrix image (https://cdn-images-1.medium.com/max/1600/1*XZrU5omVCZPZXuYv2AZnog.jpeg)
+
+    numbers image (https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/yI9FRzo/animated-falling-black-color-numbers-from-0-to-9-on-white-background_ekgmgtgm__F0000.png)
+    */
+}
+
+.three-col-box {
+  display: inline;
+}
+.center {
+  text-align: center;
+}
+
+.overlay{
+  /* background-color: rgba(0, 0, 0, 0.1); */
+  /* opacity: 0.5; */
+  /* padding-top: 20px; */
+}
+
+#title {
+font-size: 50px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  color: red;
+}
+
+#subtitle {
+  font-family: Arial, Helvetica, sans-serif;
+  color: red;
+}
+
+/*  guesses */
+
+.guess {
+  display: inline;
+  font-size: 60px;
+  border: solid 0.5px red;
+  background-color: white;
+  padding: 0 25px;
+  border-radius: 10%;
+  margin: 10px;
+  box-shadow: 2px 5px 5px grey;
+}
+
+#numberGuess {
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  display: inline;
+  font-size: 60px;
+  border: solid 0.8px red;
+  background-color: white;
+  padding: 0 0px;
+  border-radius: 100%;
+  margin: 10px;
+  box-shadow: 2px 5px 5px grey;
+}
+
+.btn-success{
+  font-family: Arial, Helvetica, sans-serif;
+  height: 80px;
+  width: 80px;
+  font-size: 16px;
+  margin: -50px;
+  border: solid 0.8px red;
+  background-color: rgb(95, 167, 127);
+  border-radius: 100%;
+  box-shadow: 2px 5px 5px grey;
+}
+
+
+/* footer */
+
+img {
+  display: inline;
+  width: 200px;
+  height: auto;
+}
+
+#footer {
+  /* display: inline-block; */
+  color: black;
+  width: 100%;
+  border-top: solid 2px black;
+  background-color: white;
+  position: fixed;
+  bottom: 0;
+}
+
+
+#copyright {
+  width:auto;
+  max-width:3%;
+  height:auto;
+}
+
+#github {
+  width:auto;
+  max-width:1.5%;
+  height:auto;
+}
+
+
+
+
+

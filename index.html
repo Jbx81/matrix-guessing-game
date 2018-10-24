@@ -10,12 +10,96 @@
 
   <body>
 
+    <div id="game" class="center container">
+      <!-- top of page -->
+
+<!-- headers -->
+      <div id="headers" class="center">
+        <h1 id="title">Play the Guessing Game!</h1>
+        <h3 id="subtitle">Guess a number between 1-100!</h3>
+      </div>
+
+      <div id='guess-feedback' class='center'>
+          <h4></h4>
+      </div>
+
+      <div>
+        <!-- beginning of board -->
+        <div class="three-col-box">
+          <!-- hint input advice blocks besgin -->
+
+          <!-- hidden hint reveal -->
+          <div id='hint-reveal' class='center'>
+              <h4 class="hint"></h4>
+          </div>
+
+          <!-- input -->
+          <div id="input-parent">
+            <input class="center" id="numberGuess" placeholder='###' maxlength='3' autofocus=autofocus>
+            <button id="submit" >Go!</button>
+          </div>
+
+          <div id='adviceImg-reveal' class='center'>
+              <h4 class="advice"></h4>
+          </div>
+
+          <!-- hint input advice blocks end -->
+        </div>
 
 
 
+        <!-- stored guesses -->
+        <div class="center">
+          <ul id="guess-list">
+            <li class="guess">-</li>
+            <li class="guess">-</li>
+            <li class="guess">-</li>
+            <li class="guess">-</li>
+            <li class="guess">-</li>
+          </ul>
+        </div>
 
-    <!-- <script src='js/guessing-game.js'></script> -->
+<!-- menu buttons -->
+        <div class="center">
+          <button class="btn" id="hint">Need a Hint?</button>
+          <button class="btn" id="reset">RESET</button>
+        </div>
+
+        <!-- end of board -->
+      </div>
+      <!-- bottom of page -->
+    </div>
+
+<!-- footer -->
+    <div id='footer' class = 'center'>
+        <div>
+          <div>
+            <img src='img/fa-logo@2x.png'></img>
+          </div>
+
+          <div>
+            <h4>
+              <!-- <img id="copyright" src="img/copyright.png">  -->
+              Project by Jonathan Ciccarella |
+              <a href="https://github.com/">
+                <img id="github" src="img/github.svg">
+              </a>
+            </h4>
+          </div>
+
+          <div>
+            <img src='img/grace_hopper_academy.png'></img>
+          </div>
+
+
+        </div>
+    </div>
+
+
+    <script src='js/guessing-game.js'></script>
     <!-- uncomment the script tag above when you are ready to add JavaScript to your document -->
+
+
   </body>
 
 </html>
