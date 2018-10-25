@@ -46,8 +46,8 @@ class Game {
         else if (diff < 50) feedbackText = `You're a bit chilly.`;
         else feedbackText = `You're ice cold!`;
           if (this.playersGuess > this.winningNumber) {
-            document.querySelector('#adviceImg-reveal > h4').innerHTML = `Guess Lower!`;
-          } else document.querySelector('#adviceImg-reveal > h4').innerHTML = `Guess Higher!`;
+            document.querySelector('#adviceReveal > h4').innerHTML = `Guess Lower!`;
+          } else document.querySelector('#adviceReveal > h4').innerHTML = `Guess Higher!`;
         }
 
     }
@@ -115,11 +115,11 @@ function playGame() {
   let game = newGame();
 
 
-  // when "go!" button gets clicked
+  // when "GUESS!" button gets clicked
   button.addEventListener('click', function() {
     const playGuess = +document.querySelector('#numberGuess').value;
     document.querySelector('#numberGuess').value = '';
-    document.querySelector('#adviceImg-reveal > h4').innerHTML = "";
+    document.querySelector('#adviceReveal > h4').innerHTML = "";
     game.playersGuessSubmission(playGuess);
     document.querySelector('#hint-reveal > h4').innerHTML = "";
   });

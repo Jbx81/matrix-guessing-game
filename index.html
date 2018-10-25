@@ -15,16 +15,17 @@
 
 <!-- headers -->
       <div id="headers" class="center">
-        <h1 id="title">Play the Guessing Game!</h1>
-        <h3 id="subtitle">Guess a number between 1-100!</h3>
+        <h2 id="title">PLAY THE GUESSING GAME</h2>
+        <h3 id="subtitle">You must choose a number between 1-100</h3>
       </div>
-
+<!-- guess feedback code -->
       <div id='guess-feedback' class='center'>
           <h4></h4>
       </div>
 
-      <div>
+      <div id="main-box">
         <!-- beginning of board -->
+        <!-- chilren: three-col-box, stored guesses, menu buttons div -->
         <div class="three-col-box">
           <!-- hint input advice blocks besgin -->
 
@@ -35,11 +36,15 @@
 
           <!-- input -->
           <div id="input-parent">
-            <input class="center" id="numberGuess" placeholder='###' maxlength='3' autofocus=autofocus>
-            <button id="submit" >Go!</button>
+            <!-- <div class="guessedNumber"> -->
+              <input class="center guessedNumber" id="numberGuess" placeholder='###' maxlength='3' autofocus=autofocus>
+            <!-- </div> -->
+            <!-- <div class="btn-Guess"> -->
+              <button id="submit" class="btn-Guess" >Choose!</button>
+            <!-- </div> -->
           </div>
 
-          <div id='adviceImg-reveal' class='center'>
+          <div id='adviceReveal' class='center'>
               <h4 class="advice"></h4>
           </div>
 
@@ -60,8 +65,8 @@
         </div>
 
 <!-- menu buttons -->
-        <div class="center">
-          <button class="btn" id="hint">Need a Hint?</button>
+        <div id="menuButtons" class="center">
+          <button class="btn" id="hint">Hint?</button>
           <button class="btn" id="reset">RESET</button>
         </div>
 
@@ -71,28 +76,24 @@
     </div>
 
 <!-- footer -->
-    <div id='footer' class = 'center'>
-        <div>
-          <div>
+    <div id='footer' class = 'center footer-background'>
+
+          <div id="FSA-logo">
             <img src='img/fa-logo@2x.png'></img>
           </div>
 
-          <div>
-            <h4>
-              <!-- <img id="copyright" src="img/copyright.png">  -->
-              Project by Jonathan Ciccarella |
+          <div id="project-name">
+            <h4>Project by Jonathan Ciccarella |
               <a href="https://github.com/">
                 <img id="github" src="img/github.svg">
               </a>
             </h4>
           </div>
 
-          <div>
+          <div id="GH-logo">
             <img src='img/grace_hopper_academy.png'></img>
           </div>
 
-
-        </div>
     </div>
 
 
