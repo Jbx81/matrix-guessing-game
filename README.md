@@ -1,3 +1,3 @@
-functionality works.  10/24/18.
+Matrix guessing game.
 
-still working on style.
+I hope you enjoy this final project.
